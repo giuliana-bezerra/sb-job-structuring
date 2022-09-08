@@ -1,4 +1,4 @@
-package br.com.giulianabezerra.sbjobstructuring;
+package br.com.giulianabezerra.sbjobstructuring.step;
 
 import org.springframework.batch.core.Step;
 import org.springframework.batch.core.configuration.annotation.StepBuilderFactory;
@@ -10,16 +10,16 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
 @Configuration
-public class Step2Config {
+public class Step1Config {
   @Autowired
   private StepBuilderFactory stepBuilderFactory;
 
   @Bean
-  public Step step2(@Qualifier("reader2") ItemReader<Integer> reader2, ItemWriter<Integer> writer) {
+  public Step step1(@Qualifier("reader1") ItemReader<Integer> reader1, ItemWriter<Integer> writer) {
     return stepBuilderFactory
-        .get("step2")
+        .get("step1")
         .<Integer, Integer>chunk(5)
-        .reader(reader2)
+        .reader(reader1)
         .writer(writer)
         .build();
   }

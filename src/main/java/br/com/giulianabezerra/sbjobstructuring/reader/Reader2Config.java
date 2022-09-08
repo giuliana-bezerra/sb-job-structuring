@@ -1,4 +1,4 @@
-package br.com.giulianabezerra.sbjobstructuring;
+package br.com.giulianabezerra.sbjobstructuring.reader;
 
 import java.util.Arrays;
 

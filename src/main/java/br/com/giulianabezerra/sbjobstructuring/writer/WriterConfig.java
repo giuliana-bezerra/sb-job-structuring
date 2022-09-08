@@ -1,4 +1,4 @@
-package br.com.giulianabezerra.sbjobstructuring;
+package br.com.giulianabezerra.sbjobstructuring.writer;
 
 import org.springframework.batch.item.ItemWriter;
 import org.springframework.context.annotation.Bean;

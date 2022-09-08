@@ -4,9 +4,10 @@ Esse projeto demonstra como organizar um projeto Spring Batch para melhorar a su
 
 ## Roteiro
 
-[ ] [Contextualizar problema](https://github.com/giuliana-bezerra/sb-job-structuring/tree/v1.0)
-[ ] [Ajuste 1: Separação dos componentes em classes](https://github.com/giuliana-bezerra/sb-job-structuring/tree/v2.0)
-[ ] [Ajuste 2: Organização de pacotes - Camadas, Domínios, Steps](https://github.com/giuliana-bezerra/sb-job-structuring/tree/v3.0)
+- [ ] [Contextualizar problema](https://github.com/giuliana-bezerra/sb-job-structuring/tree/v1.0)
+- [ ] [Ajuste 1: Separação dos componentes em classes](https://github.com/giuliana-bezerra/sb-job-structuring/tree/v2.0)
+- [ ] [Ajuste 2: Organização de pacotes - Modelo Camadas](https://github.com/giuliana-bezerra/sb-job-structuring/tree/v3.0)
+- [ ] [Ajuste 3: Organização de pacotes - Modelo Steps](https://github.com/giuliana-bezerra/sb-job-structuring/tree/v4.0)
 
 ## Referências
 

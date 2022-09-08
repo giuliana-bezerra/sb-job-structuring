@@ -1,4 +1,4 @@
-package br.com.giulianabezerra.sbjobstructuring;
+package br.com.giulianabezerra.sbjobstructuring.job;
 
 import org.springframework.batch.core.Job;
 import org.springframework.batch.core.Step;
